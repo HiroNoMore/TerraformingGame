@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This code is to keep score for an Oxygen Vent structure using time-based scoring.
+//Ex. Place the structure, OxyScore rises, remove structure, score stops raising
+// but total score remains.
 public class O2Score : MonoBehaviour {
     float OxyScore = 0;
 
