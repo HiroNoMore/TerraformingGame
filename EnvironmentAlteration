@@ -6,7 +6,7 @@ using UnityEngine;
 //Ex. Place the structure, OxyScore rises, remove structure, score stops raising
 // but total score remains.
 public class O2Score : MonoBehaviour {
-    float OxyScore = 0;
+    public int OxyScore = 0;
 
 	// Use this for initialization
 	void Start () {
